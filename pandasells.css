@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+}
+
+.main_content{ 
+    /* background-color: rgb(219, 219, 219); */
+    background-image: url("back3.jpg");
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    text-transform: uppercase;
+    border: 0px;
+    margin-top: 0px;
+    position: fixed;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+p{
+    
+    margin: 0px;
+}
+img{
+    float: left;
+}
+
+text{
+    color: aliceblue;
+    font-size: 40px;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav{
+    float: right;
+}
+
+li{
+    display: inline;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-right: 75px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+
+    /*padding: 15px;*/
+}
+
+nav ul li a:hover{
+    color: rgb(209, 185, 233);
+}
+.main{
+    background-image: url("")
+}
+.intro{
+    margin-left: 150px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+#opener{
+    font-size: 40px;
+    padding-top: 65px;
+}
+.column{
+    border: 4px solid gray;
+    margin-left: 100px;
+    margin-top:10px;
+    height: 200px;
+    margin-right: 400px;
+}
+
+#text_column{
+    text-align: center;
+    font-family: Arial;
+}
+h3{
+    margin: 0px;
+}
+
+#inner_container{
+    font-family: Arial;
+    font-size: 20px;
+    padding: 50px;
+}
+div img{
+    padding: 30px;
+}
+#join{
+    float: right;
+    width: 300px;
+    height: 200px;
+    border: 4px solid grey;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+form label{
+    padding-bottom: 5px;
+
+}
+
+section p{
+    font-size: 25px;
+    padding: -5px;
+    text-align: center;
+}
+.enter{
+    width: 100%;
+    margin: 5px;
+}
+button{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.content2{
+    display: flex;
+    width: 1050px;
+    height: auto;
+    border: 1px solid rgb(68, 68, 68);
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.content2 >div {
+    width: 300px;
+    height: 400px;
+    flex-direction: row;
+    background-color: blueviolet;
+    padding: 5px;
+    /* margin: 5px; */
+    justify-content: space-evenly;
+    /* margin: 0 auto; */
+
+}
+
+.content2 > div >img{
+    padding: 0px;
+}
+#products > p{
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+
+}
+.col{
+    display: flex;
+    align-items: baseline;
+}
+
+footer{
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+}
