@@ -177,12 +177,9 @@ button{
     text-transform: uppercase;
     font-size: 80px;
     text-align: center;
-    font-family: 'Comforta';
+    font-family: Comforta;
     margin-top: 20px;
 
-}
-.col{
-    
 }
 
 footer{
